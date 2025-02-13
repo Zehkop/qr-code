@@ -1,4 +1,26 @@
 body {
     background-color: hsl(212, 45%, 89%);
 }
+.container{
+    width: 250px;
+    height: 400px;
+    position: absolute;
 
+    background-color: hsl(0, 0%, 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    border-radius: 20px;
+}
+.qr-code{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.title{
+    font-family: outfit
+}
